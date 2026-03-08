@@ -5,7 +5,7 @@
 
 The **Online Voting System** is a web-based application designed to allow students to securely cast their votes and view election results online. The system provides a simple and transparent digital voting platform where users can log in using a unique ID, verify their identity through CAPTCHA verification, and vote for their preferred candidate or select **NOTA (None of the Above)**.
 
-![My Screenshot](./Example/Screenshot%2026-03-08%20111816.png)
+![My Screenshot](./Example/Screenshot%26-03-08%111816.png)
 
 
 
