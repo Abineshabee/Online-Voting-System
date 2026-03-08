@@ -8,6 +8,7 @@ The **Online Voting System** is a web-based application designed to allow studen
 ![My Screenshot](./Online-Voting-System/Example/Screenshot%2026-03-08%20111816.png)
 
 
+
 This project is built using **Python Flask as the backend** and **HTML/CSS for the frontend** to provide a lightweight and efficient voting platform.
 
 ---
