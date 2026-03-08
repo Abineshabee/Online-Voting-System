@@ -75,7 +75,7 @@ Online-Voting-System
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/online-voting-system.git
+git clone https://github.com/Abineshabee/online-voting-system.git
 ```
 
 ### Navigate to the project folder
