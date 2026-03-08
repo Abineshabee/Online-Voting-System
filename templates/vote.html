@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/styles2.css')}}">
+</head>
+<body>
+
+    <div class="container">
+
+        <div id="vlogo">
+
+            <a href="/OnlineVotingSystem">
+            <img src="{{url_for('static',filename='images/vote4.png')}}" style="width: 100px; height: 100px ;" alt="">
+            </a>
+
+        </div>
+
+        <div id="vtitle" >
+ 
+            <h1 style="padding-top: 10px ;">Online Voting System</h1>
+
+        </div>
+
+    </div>
+
+    <div class="mainc">
+
+           <div id="details">
+
+                 <div id="photo">
+
+                    <div id="logo">
+                       
+                        <img src="{{url_for('static',filename='images/profile3.png')}}" alt="profile" width="150px" height="150px" >
+
+                    </div>
+
+                    <p >User Profile</p>
+
+                 </div>
+
+                 <div id="text">
+
+
+                    <p id="t">EPIC ID : {{vi}} </p>
+                    <p id="t">Name   <span style="color: rgba(0, 255, 255, 0);">..</span> : {{nm}} </p>
+                    <p id="t">Gender <span style="color: rgba(0, 255, 255, 0);">.</span>: {{gn}} </p>
+                    <p id="t">Age    <span style="color: rgba(0, 255, 255, 0);">...</span> : {{ag}} </p>
+                    <p id="t">Mobile  <span style="color: rgba(0, 255, 255, 0);">.</span>: {{mo}} </p>
+                    <p id="at">Address  : {{ad}} </p>
+
+                 </div>
+
+           </div>
+
+           <h2 id="hrt">Hello! {{ nm }} Welcome To Online Voting System.</h2>
+
+           <hr style="margin-top: 100px ; border-color: rgba(255, 255, 255, 0.192) ; border-width: 1px ; width: 90% ;">
+
+           <h1 id="hd">Candidates Details</h1>
+
+           <hr style="margin-top: 30px ; border-color: rgba(255, 255, 255, 0.192) ; border-width: 1px ; width: 90% ; margin-bottom: 40px ;">
+
+
+           <h2 style="color: white; margin-left: 80px ;">Candidate : 1 </h2>
+
+           <div id="cd1">
+
+           
+
+           <div id="c1">
+        
+            <div id="cid">
+
+                <img src="{{url_for('static',filename='images/profile3.png')}}" width="100px" height="100px" >
+
+            </div>
+            <hr style="margin-top: 30px ; border-color: rgba(255, 255, 255, 0.192) ; border-width: 1px ; width: 80% ; margin-bottom: 20px ;">
+
+
+            <p id="it">Name  <span style="color: rgba(255, 255, 255, 0);">..</span>: VELUCHAMY P </p>
+            <p id="it">ID <span style="color: rgba(255, 255, 255, 0);">...</span>: ACB1235123 </p>
+            <p id="it">Year/Dept : 3/IT </p>
+            <p id="it">Sec  <span style="color: rgba(255, 255, 255, 0);">.</span>: B </p>
+
+
+           </div>
+
+           <p id="ttext">Leadership Experience: <br><br>
+            Actively involved in student organizations, taking on leadership roles to support campus initiatives.  
+            Organized events, workshops, and awareness campaigns to enhance student engagement.<br><br>
+
+            Administrative Experience: <br><br>
+            Managed club activities, coordinating with faculty and students to improve campus life.  
+            Spearheaded initiatives to streamline communication and improve student resources.<br><br>
+
+            Educational Background: <br><br>
+            Currently pursuing a degree in IT , with a strong interest in leadership and student development.  
+            Participated in additional courses and workshops on management, teamwork, and problem-solving.</p>
+
+        </div>
+
+         <div id="linkbox">
+            
+            <div id="link">
+
+                <h3 id="it" style="text-align: left; padding-top: 5px  ; text-align: center;">Click! The Vote Button To Vote </h3>
+
+
+            </div>
+
+            <div id="lb">
+
+                <form action="/c1" method="post">           
+                    <input id="button" type="submit" value="Vote">
+                </form>
+
+            </div>
+
+         </div>
+
+           
+           <hr style="margin-top: 80px ; border-color: rgba(255, 255, 255, 0.192) ; border-width: 1px ; width: 90% ; margin-bottom: 50px; ">
+
+
+           <h2 style="color: white; margin-left: 80px ;">Candidate : 2 </h2>
+
+           <div id="cd1">
+
+           
+
+           <div id="c1">
+        
+            <div id="cid">
+
+                <img src="{{url_for('static',filename='images/profile3.png')}}" width="100px" height="100px" >
+
+            </div>
+            <hr style="margin-top: 30px ; border-color: rgba(255, 255, 255, 0.192) ; border-width: 1px ; width: 80% ; margin-bottom: 20px ;">
+
+
+            <p id="it">Name  <span style="color: rgba(255, 255, 255, 0);">..</span>: AISHA GUPTA A </p>
+            <p id="it">ID <span style="color: rgba(255, 255, 255, 0);">...</span>: BSE1234567 </p>
+            <p id="it">Year/Dept : 2/CSE</p>
+            <p id="it">Sec <span style="color: rgba(255, 255, 255, 0);">.</span>: B  </p>
+
+
+           </div>
+    
+            <p id="ttext">Leadership Experience: <br><br>
+            Served as a student council member, representing student concerns and initiatives.  
+            Led various student-driven programs, promoting inclusivity and engagement.<br><br>
+
+            Administrative Experience: <br><br>
+            Organized multiple college events, ensuring smooth execution and participation.  
+            Worked with faculty to implement policies benefiting the student body.<br><br>
+
+            Educational Background: <br><br>
+            Currently pursuing a degree in CSE , with a passion for leadership and community-building.  
+            Completed training in team management and conflict resolution.</p>
+
+        </div>
+
+         <div id="linkbox">
+            
+            <div id="link">
+
+                <h3 id="it" style="text-align: left; padding-top: 5px  ; text-align: center;">Click! The Vote Button To Vote </h3>
+
+
+            </div>
+
+            <div id="lb">
+
+                <form action="/c2" method="post">           
+                    <input id="button" type="submit" value="Vote">
+                </form>
+
+            </div>
+
+         </div>
+
+           
+           <hr style="margin-top: 80px ; border-color: rgba(255, 255, 255, 0.192) ; border-width: 1px ; width: 90% ; margin-bottom: 50px ; ">
+
+
+
+           <h2 style="color: white; margin-left: 80px ;">Candidate : 3 </h2>
+
+           <div id="cd1">
+
+           
+
+           <div id="c1">
+        
+            <div id="cid">
+
+                <img src="{{url_for('static',filename='images/profile3.png')}}" width="100px" height="100px" >
+
+            </div>
+            <hr style="margin-top: 30px ; border-color: rgba(255, 255, 255, 0.192) ; border-width: 1px ; width: 80% ; margin-bottom: 20px ;">
+
+
+            <p id="it">Name  <span style="color: rgba(255, 255, 255, 0);">..</span>: ARJUN SHARMA S</p>
+            <p id="it">ID <span style="color: rgba(255, 255, 255, 0);">...</span>: NBS3427865 </p>
+            <p id="it">Year/Dept : 3/EEE</p>
+            <p id="it">Sec <span style="color: rgba(255, 255, 255, 0);">.</span>: A </p>
+
+
+           </div>
+            
+            <p id="ttext">Event Management & Logistics: <br><br>
+             Planned and executed college-wide events, managing sponsorships and budgeting.  
+             Collaborated with different student clubs to create engaging experiences.<br><br>
+
+             Administrative Experience: <br><br>
+             Served as a coordinator for cultural and academic events, handling logistics.  
+             Worked on student resource allocation and facility management.<br><br>
+
+             Educational Background: <br><br>
+             Currently Pursuing a degree in EEE , with a focus on event planning and organizational skills.  
+             Completed courses on project management and communication.</p>
+
+        </div>
+
+         <div id="linkbox">
+            
+            <div id="link">
+
+                <h3 id="it" style="text-align: left; padding-top: 5px  ; text-align: center;">Click! The Vote Button To Vote </h3>
+
+
+            </div>
+
+            <div id="lb">
+
+                <form action="/c3" method="post">           
+                    <input id="button" type="submit" value="Vote">
+                </form>
+
+            </div>
+
+         </div>
+
+           
+
+           <hr style="margin-top: 80px ; border-color: rgba(255, 255, 255, 0.192) ; border-width: 1px ; width: 90% ; margin-bottom: 50px ; ">
+
+
+
+           <h2 style="color: white; margin-left: 80px ;">Candidate : 4 </h2>
+
+           <div id="cd1">
+
+           
+
+           <div id="c1">
+        
+            <div id="cid">
+
+                <img src="{{url_for('static',filename='images/profile3.png')}}" width="100px" height="100px" >
+
+            </div>
+            <hr style="margin-top: 30px ; border-color: rgba(255, 255, 255, 0.192) ; border-width: 1px ; width: 80% ; margin-bottom: 20px ;">
+
+
+            <p id="it">Name  <span style="color: rgba(255, 255, 255, 0);">..</span>: ANANYA SINGH A</p>
+            <p id="it">ID <span style="color: rgba(255, 255, 255, 0);">...</span>: XZW1234564 </p>
+            <p id="it">Year/Dept : 4/AIDS</p>
+            <p id="it">Sec <span style="color: rgba(255, 255, 255, 0);">.</span>: A </p>
+
+
+           </div>
+
+            <p id="ttext">Academic & Student Support: <br><br>
+             Founded and led study groups to assist peers in academics.  
+             Conducted mentorship sessions to support student learning and career growth.<br><br>
+
+             Administrative Experience: <br><br>
+             Assisted in curriculum planning and student academic resource management.  
+             Worked with faculty to introduce academic initiatives for better student support.<br><br>
+
+            Educational Background: <br><br>
+            Currently Pursuing a degree in AIDS , with a strong focus on education and mentorship.  
+            Completed workshops in tutoring, public speaking, and career guidance.</p>
+
+        </div>
+
+         <div id="linkbox">
+            
+            <div id="link">
+
+                <h3 id="it" style="text-align: left; padding-top: 5px  ; text-align: center;">Click! The Vote Button To Vote </h3>
+
+
+            </div>
+
+            <div id="lb">
+
+                <form action="/c4" method="post">           
+                    <input id="button" type="submit" value="Vote">
+                </form>
+
+            </div>
+
+         </div>
+
+           
+         <hr style="margin-top: 80px ; border-color: rgba(255, 255, 255, 0.192) ; border-width: 1px ; width: 90% ; margin-bottom: 50px ; ">
+
+
+
+         <h2 style="color: white; margin-left: 80px ;">Candidate : 5 </h2>
+
+         <div id="cd1">
+
+         
+
+         <div id="c1">
+      
+          <div id="cid">
+
+              <img src="{{url_for('static',filename='images/profile3.png')}}" width="100px" height="100px" >
+
+          </div>
+
+          <hr style="margin-top: 30px ; border-color: rgba(255, 255, 255, 0.192) ; border-width: 1px ; width: 80% ; margin-bottom: 20px ;">
+
+
+          <p id="it">Name  <span style="color: rgba(255, 255, 255, 0);">..</span>: ADITYA  G</p>
+          <p id="it">ID <span style="color: rgba(255, 255, 255, 0);">...</span>: ZXR3423571 </p>
+          <p id="it">Year/Dept : 4/CSE</p>
+          <p id="it">Sec <span style="color: rgba(255, 255, 255, 0);">.</span>: A </p>
+
+
+         </div>
+            
+            <p id="ttext">Technology & Innovation: <br><br>
+            Developed tech-based solutions to enhance campus communication.  
+            Led coding clubs and hackathons to encourage student participation in technology.<br><br>
+
+            Administrative Experience: <br><br>
+            Managed the college’s digital platforms and information systems.  
+            Worked on initiatives to integrate technology into student learning.<br><br>
+
+             Educational Background: <br><br>
+             Currently Pursuing a degree in CSE , with a focus on IT and innovation.  
+             Completed certifications in web development, app development, and AI.</p>
+
+      </div>
+
+       <div id="linkbox">
+          
+          <div id="link">
+
+              <h3 id="it" style="text-align: left; padding-top: 5px  ; text-align: center;">Click! The Vote Button To Vote 
+              </h3>
+
+
+          </div>
+
+          <div id="lb">
+
+              <form action="/c5" method="post">           
+                  <input id="button" type="submit" value="Vote">
+              </form>
+
+          </div>
+
+       </div>
+
+         
+       <hr style="margin-top: 80px ; border-color: rgba(255, 255, 255, 0.192) ; border-width: 1px ; width: 90% ; margin-bottom: 50px ; ">
+
+
+
+       <h2 style="color: white; margin-left: 80px ;">Candidate : 6 </h2>
+
+       <div id="cd1">
+
+       
+
+       <div id="c1">
+    
+        <div id="cid">
+
+            <img src="{{url_for('static',filename='images/profile3.png')}}" width="100px" height="100px" >
+
+        </div>
+        <hr style="margin-top: 30px ; border-color: rgba(255, 255, 255, 0.192) ; border-width: 1px ; width: 80% ; margin-bottom: 20px ;">
+
+
+        <p id="it">Name  <span style="color: rgba(255, 255, 255, 0);">..</span>: MEERA REDDY M</p>
+        <p id="it">ID <span style="color: rgba(255, 255, 255, 0);">...</span>: KHT3241532 </p>
+        <p id="it">Year/Dept : 1/IT</p>
+        <p id="it">Sec <span style="color: rgba(255, 255, 255, 0);">.</span>: A </p>
+
+
+       </div>
+
+        
+        <p id="ttext">Cultural & Creative Initiatives: <br><br>
+        Actively participated in and organized cultural events, talent shows, and creative workshops.  
+        Promoted artistic expression through clubs and student-led performances.<br><br>
+
+        Administrative Experience: <br><br>
+        Managed event schedules and performance planning for college fests.  
+        Worked with college authorities to expand cultural programs and funding.<br><br>
+
+        Educational Background: <br><br>
+        Pursuing a degree in [Your Major], with a passion for arts and culture.  
+        Completed courses in media, design, and creative arts.</p>
+
+    </div>
+
+     <div id="linkbox">
+        
+        <div id="link">
+
+            <h3 id="it" style="text-align: left; padding-top: 5px  ; text-align: center;">Click! The Vote Button To Vote </h3>
+
+
+        </div>
+
+        <div id="lb">
+
+            <form action="/c6" method="post">           
+                <input id="button" type="submit" value="Vote">
+            </form>
+
+        </div>
+
+     </div>
+
+       
+     <hr style="margin-top: 80px ; border-color: rgba(255, 255, 255, 0.192) ; border-width: 1px ; width: 90% ; margin-bottom: 50px ; ">
+
+
+
+     <h2 style="color: white; margin-left: 80px ;">Nota </h2>
+
+     <div id="linkbox">
+        
+        <div id="link">
+
+            <h3 id="it" style="text-align: left; padding-top: 5px  ; text-align: center;">Click! The Vote Button To Vote Nota </h3>
+
+
+        </div>
+
+        <div id="lb">
+
+            <form action="/nota" method="post">           
+                <input id="button" type="submit" value="Vote">
+            </form>
+
+        </div>
+     
+     <hr style="margin-top: 80px ; border-color: rgba(255, 255, 255, 0.192) ; border-width: 1px ; width: 100% ; ">
+
+
+     <h2 id="it" style="margin-top: 30px ; margin-left: 10%;">"Thank you for taking the time to visit Online Voting System website!"</h2>
+
+
+
+
+    </div>
+
+
+   
+    
+</body>
+</html>

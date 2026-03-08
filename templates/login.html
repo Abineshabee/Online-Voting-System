@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Voting System( LOGIN )</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/styles1.css')}}">
+</head>
+<body>
+
+    <div class="container">
+
+        <div id="vlogo">
+
+            <a href="/OnlineVotingSystem">
+            <img src="{{url_for('static',filename='images/vote4.png')}}" style="width: 100px; height: 100px ;" alt="">
+            </a>
+
+        </div>
+
+        <div id="vtitle" >
+ 
+            <h1 style="padding-top: 10px ;">Online Voting System</h1>
+
+        </div>
+
+    </div>
+
+    <div class="mainc">
+
+
+        <div id="login" >
+
+            <div id="userlogo">
+                
+                <img src="{{url_for('static',filename='images/profile.png')}}" width="150px" , height="150px" alt="userlogo">
+
+            </div>
+
+            <p id="l" style="color: black;">user login</p>
+
+            <div id="inside">
+
+            
+                <form action="/OnlineVotingSystem/login/vote" method="post">
+                    <label id="l" for="epicno">EPIC Number &nbsp; :  </label>
+                    <input type="text" id="epicno" placeholder="EPIC Number" name="epicno"><br><br>
+            
+                    <!-- Add CAPTCHA label and image here -->
+                    <label id="l" for="captcha">Enter Captcha : </label>
+                     <!-- Add input box for CAPTCHA -->
+                     <input type="text" id="captcha" placeholder="Enter Captcha" name="captcha"><br><br>
+
+                     <p id="l" style="text-align: center ;">CAPTCHA</p>
+    
+                    <img src="{{url_for('static',filename='images/captcha_image.png')}}" alt="CAPTCHA Image" style="border-radius: 10px ; margin-left: 35% ;">
+                     <br><br>
+                    <!-- Add submit button -->
+                    <input id="button" type="submit" value="Submit">
+                    <br><br>
+
+                </form>
+
+                <a href="/OnlineVotingSystem">
+    
+                    <button id="button" >Cancel</button>
+
+                    </a>
+    
+
+
+
+        </div>
+          
+
+        </div>
+
+           
+
+    </div>
+
+
+   
+    
+</body>
+</html>

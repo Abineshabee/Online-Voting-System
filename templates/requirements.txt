@@ -1,0 +1,5 @@
+flask
+gunicorn
+json5
+captcha
+requests

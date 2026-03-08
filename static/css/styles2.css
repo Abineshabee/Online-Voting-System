@@ -1,0 +1,268 @@
+body {
+    font-family: Cascadia Code;
+}
+
+.container{
+
+      height: 100px ;
+      width: 98.8% ;
+      text-align: center ;
+      border-radius: 25px ;
+      /* color */
+      background-color: rgba(255, 255, 255, 0.850) ;
+      position: fixed ;
+      padding-top: 10px;
+      padding-bottom: 10px ;
+      border-style: solid ;
+      border-color: black;
+      border-width: 1px ;
+      
+      
+
+}
+
+#vlogo{
+
+    height: 100px ;
+    width: 8% ;
+    background-color: rgb(255, 255, 255) ;
+    float: left ;
+    margin-left: 30px ;
+    border-radius: 50px ;
+    transition: background-color 2s , box-shadow 2s ,transform 1s ;
+    
+    
+}
+
+#vlogo:hover{
+    background-color: rgb(0, 255, 13) ;
+    box-shadow: 0px 0px 500px greenyellow;
+    transform: scale(1.1);
+
+    
+    
+    
+    
+}
+
+#vtitle{
+
+    height: 60px ;
+    background-color: rgb(43, 43, 43) ;
+    width: 84% ;
+    margin-left: 13% ;
+    border-radius: 25px ;
+    color: white ;
+    
+}
+
+.mainc{
+
+    width: 100% ;
+    height: 5200px;
+    background-color: rgb(35, 0, 65) ;
+    border-radius: 25px ;
+    padding-top: 140px ;
+
+}
+
+#details{
+
+    width: 60% ;
+    height: 330px ;
+    background-color: rgba(134, 22, 238, 0.568);
+    border-radius: 25px ;
+    border-color: black ;
+    border-color: black ;
+    border-width: 1px ;
+    border-style: solid ;
+    margin-left: 20% ;
+    margin-top: 20px ;
+    padding-top: 20px ;
+    color: white;
+}
+
+#photo{
+
+    width: 45% ;
+    height: 310px ;
+    background-color: rgba(137, 43, 226, 0.404) ;
+    margin-left: 20px ;
+    border-radius: 25px ;
+    text-align: center;
+    float: left ;
+    transition:  transform 1s ;
+
+}
+
+#photo:hover{
+    transform: scale(0.9);
+}
+
+#text{
+
+    width: 42.5% ;
+    height: 290px ;
+    background-color:  rgba(255, 255, 255, 0) ;
+    border-radius: 25px ;
+    margin-left: 52% ;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    padding-left: 10px ;
+    padding-right: 10px ;
+    transition: background-color 2s ;
+}
+
+#text:hover{
+
+    background-color: rgba(137, 43, 226, 0.404);
+
+}
+
+#logo{
+
+    width: 150px; 
+    height: 150px ;
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 100px ;
+    margin-top: 50px ;
+    margin-left: 100px ;
+    transition:  transform 1s ;
+
+}
+
+#logo:hover{
+    transform: scale(1.1);
+}
+
+#t{
+    margin-left: 20px ;
+    margin-bottom: 20px ;
+}
+
+#at{
+    margin-left: 20px ;
+}
+
+#hrt{
+
+    color: white ;
+    margin-left: 20% ;
+    margin-top: 70px ;
+}
+
+
+
+#hd{
+
+    color: white ;
+    margin-left: 40% ;
+    margin-top: 30px ;
+    text-decoration: underline ;
+}
+
+#cd1{
+
+    height: 340px ;
+    width: 90% ;
+    background-color: rgba(119, 0, 255, 0.363) ;
+    border-radius: 25px ;
+    margin-left: 60px ;
+    margin-top: 40px ;
+    padding-top: 20px ;
+}
+
+#c1{
+
+    height: 300px ;
+    width: 25% ;
+    background-color: rgba(98, 0, 255, 0.568) ;
+    border-radius: 25px ;
+    margin-left: 20px ;
+    text-align: center;
+    padding-top: 20px ;
+    float: left;
+
+}
+
+
+#cid{
+    height: 100px ;
+    width: 100px ;
+    background-color: rgba(27, 0, 150, 0.637) ;
+    border-radius: 50px ;
+    margin-left: 34% ;
+
+}
+
+#it{
+
+    color: white;
+    text-align: left;
+    margin-left: 40px ;
+
+}
+
+#ttext{
+    color: white;
+    margin-left: 350px ;
+    margin-right: 20px ;
+}
+
+
+
+#linkbox{
+     
+    height: 90px ;
+    width: 90% ;
+    background-color: rgba(119, 0, 255, 0.363) ;
+    border-radius: 25px ;
+    color: white;
+    margin-left: 60px ;
+    margin-top: 20px ;
+    padding-top: 20px ;
+}
+
+#link{
+
+    height: 70px ;
+    width: 75% ;
+    background-color: rgba(98, 0, 255, 0.568)  ;
+    color: white;
+    border-radius: 10px ;
+    margin-left: 20px ;
+    float: left;
+
+}
+
+#lb{
+
+    height: 70px ;
+    width: 220px ;
+    background-color: rgba(98, 0, 255, 0.568) ;
+    color: white;
+    border-radius: 10px ;
+    margin-left: 79%;
+}
+
+#button{
+
+    background-color: rgba(0, 0, 255, 0.37) ;
+    color: white ;
+    height: 70px ;
+    width: 220px ;
+    border-radius: 10px ;
+    border-color: white ;
+    border-width: 1px ;
+    font-size: large;
+    transition: transform 1s , background-color 1s , box-shadow 2s ;
+    
+}
+
+#button:hover{
+    transform: scale(1.1);
+    background-color:  rgba(45, 0, 151, 0.815) ;
+    box-shadow: 0 0 30px rgb(0, 0, 0) ;
+}
+
+

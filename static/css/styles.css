@@ -1,0 +1,363 @@
+body {
+    font-family: Cascadia Code;
+}
+
+.container{
+
+      height: 100px ;
+      width: 98.8% ;
+      text-align: center ;
+      border-radius: 25px ;
+      /* color */
+      background-color:  rgba(255, 255, 255, 0.850) ;
+      position: fixed ;
+      padding-top: 10px;
+      padding-bottom: 10px ;
+      border-style: solid ;
+      border-color: black;
+      border-width: 1px ;
+      
+}
+
+#vlogo{
+
+    height: 100px ;
+    width: 8% ;
+    background-color: rgb(255, 255, 255) ;
+    float: left ;
+    margin-left: 30px ;
+    border-radius: 50px ;
+    transition: background-color 2s , box-shadow 2s ,transform 1s ;
+    
+    
+}
+
+#vlogo:hover{
+    background-color: rgb(0, 255, 13) ;
+    box-shadow: 0px 0px 500px greenyellow;
+    transform: scale(1.1);
+
+    
+    
+    
+    
+}
+
+#vtitle{
+
+    height: 60px ;
+    background-color: rgb(43, 43, 43) ;
+    width: 84% ;
+    margin-left: 13% ;
+    border-radius: 25px ;
+    color: white ;
+    
+}
+
+.mainc{
+
+    width: 100% ;
+    height: 1000px;
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 25px ;
+    padding-top: 140px ;
+
+}
+
+#paragraph{
+
+    height: 300px ;
+    width: 60% ;
+    background-color: rgb(255, 255, 255) ;
+    margin-left: 20px ;
+    border-radius: 25px ;
+    float: left;
+    text-align: left ;
+    color: rgb(0, 0, 0) ;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(180, 180, 180);
+    transition: background-color 2s , color 2s  ;
+
+    
+
+   
+}
+
+#paragraph:hover{
+
+    background-color: blueviolet ;
+    color: white ;
+
+
+}
+
+#text{
+
+    font-family: Cascadia Code ; 
+    font-size: large ;
+    padding-left: 20px ;
+    padding-right: 20px ; 
+    padding-top: 50px ;
+    padding-bottom: 20px ;
+   
+}
+
+#vote_img{
+    width: 34.5% ;
+    height: 300px ;
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 25px ;
+    margin-left: 64% ;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(180, 180, 180);
+}
+
+#paragraph2{
+
+    width: 97% ;
+    height: 170px ;
+    background-color: rgb(255, 255, 255) ; 
+    color: black;
+    border-radius: 25px ;
+    margin-left: 20px ;
+    margin-top: 20px ;
+    transition: background-color 2s , color 2s;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(180, 180, 180);
+
+}
+
+#paragraph2:hover{
+
+    background-color: blueviolet;
+    color: white ;
+}
+
+#text2{
+
+    font-family: Cascadia Code ; 
+    font-size: large ;
+    padding-left: 20px ;
+    padding-right: 20px ; 
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+   
+}
+
+
+#vote_gif{
+
+    height: 500px ;
+    width: 48% ;
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 25px ;
+    margin-top: 20px ;
+    margin-left: 20px ;
+    text-align: center;
+    float: left;
+    text-align: center ;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(180, 180, 180);
+
+}
+
+#t{
+    font-size: large; 
+    font-family: Cascdia Code; 
+    padding-top: 30px; 
+    padding-bottom: 20px;
+    padding-left: 20px; 
+    padding-right: 40px;
+}
+
+#list{
+
+    height: 500px;
+    width: 48% ;
+    background-color: rgb(255, 255, 255);
+    color: black ;
+    border-radius: 25px ;
+    margin-left: 51% ;
+    margin-top: 20px ;
+    transition: background-color 2s , color 2s ;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(180, 180, 180);
+
+}
+
+#list:hover{
+
+    background-color: blueviolet;
+    color: white;
+}
+
+#details{
+
+    height: 800px ;
+    width: 94% ;
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 25px ;
+    margin-top: 20px ;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+    padding-left: 20px ;
+    padding-right: 20px ;
+    margin-left: 20px  ;
+
+    border-left-style: solid ;
+    border-width: 1px ;
+    border-right-style: solid ;
+    border-color: rgb(180, 180, 180);
+    
+
+}
+
+#normalp{
+
+    font-size: large; 
+    font-family: Cascadia Code ;
+}
+
+.mainv{
+
+    height: 300px ;
+    width: 97.8% ;
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 25px ;
+    margin-left: 20px ;
+    margin-top: 20px;
+    border-left-style: solid ;
+    border-width: 1px ;
+    border-right-style: solid ;
+    border-color: rgb(180, 180, 180);
+
+}
+
+#v1{
+    height: 260px  ;
+    width: 31.2% ;
+    background-color: rgb(255, 255, 255) ;
+    color: rgb(0, 0, 0) ;
+    border-radius: 25px ;
+    float: left ;
+    margin-top: 20px ;
+    margin-left: 20px ;
+    text-align: center ;
+    border-left-style: solid ;
+    border-width: 1px ;
+    border-right-style: solid ;
+    border-color: rgb(180, 180, 180);
+    transition: background-color 2s , color 2s   ;
+}
+
+#v1:hover{
+
+    background-color: blueviolet ;
+    color: white ;
+    
+
+}
+
+#v2{
+    height: 260px  ;
+    width: 31.2% ;
+    background-color: rgb(255, 255, 255) ;
+    color: rgb(0, 0, 0) ;
+    border-radius: 25px ;
+    margin-left: 20px ;
+    float: left ;
+    margin-top: 20px ;
+    text-align: center ;
+    border-left-style: solid ;
+    border-width: 1px ;
+    border-right-style: solid ;
+    border-color: rgb(180, 180, 180) ;
+    transition: background-color 2s , color 2s   ;
+}
+
+#v2:hover{
+
+    background-color: blueviolet ;
+    color: white ;
+}
+
+#v3{
+    height: 260px  ;
+    width: 31% ;
+    background-color: rgb(255, 255, 255) ;
+    color: rgb(0, 0, 0) ;
+    border-radius: 25px ;
+    vertical-align: middle;
+    float: left ;
+    margin-top: 20px ;
+    margin-left: 20px ;
+    text-align: center;
+    border-left-style: solid ;
+    border-width: 1px ;
+    border-right-style: solid ;
+    border-color: rgb(180, 180, 180);
+   
+    transition: background-color 2s , color 2s   ;
+}
+
+#v3:hover{
+
+    background-color: blueviolet ;
+    color: white ;
+
+
+}
+
+.link{
+
+    height: 200px ;
+    width: 97% ;
+    border-radius: 25px ;
+    background-color: rgb(173, 173, 238) ;
+    margin-left: 20px ;
+    margin-top: 20px ;
+
+}
+
+#button{
+
+    height: 100px ;
+    width: 30% ;
+    background-color: rgb(153, 43, 255) ;
+    border-radius: 25px ;
+    color: white ;
+    margin-top: 20px ;
+    text-align: center ;
+    margin-left: 35% ;
+    border-style: solid ;
+    font-size: larger ;
+    font-weight: bold ;
+    font-family:  'Roboto', sans-serif ;
+    border-width: 1px ;
+    transition: transform 1s , box-shadow 2s , background-color 2s  ;
+
+
+}
+
+#button:hover{
+
+    transform: scale(1.2);
+    box-shadow: 0 0 100px rgb(38, 0, 99) ;
+    background-color: rgb(73, 0, 141) ;
+
+}
+
+#btext{
+    padding-left: 25% ;
+    padding-right: 25% ;
+    text-align: center;
+    color: white ;
+    font-weight: bold ;
+    
+}

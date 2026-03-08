@@ -1,0 +1,165 @@
+body {
+    font-family: Cascadia Code;
+}
+
+.container{
+
+      height: 100px ;
+      width: 98.8% ;
+      text-align: center ;
+      border-radius: 25px ;
+      /* color */
+      background-color:  rgba(255, 255, 255, 0.850)  ;
+      position: fixed ;
+      padding-top: 10px;
+      padding-bottom: 10px ;
+      border-style: solid ;
+      border-color: black;
+      border-width: 1px ;
+      
+      
+
+}
+
+#vlogo{
+
+    height: 100px ;
+    width: 8% ;
+    background-color: rgb(255, 255, 255) ;
+    float: left ;
+    margin-left: 30px ;
+    border-radius: 50px ;
+    transition: background-color 2s , box-shadow 2s , transform 1s ;
+    
+    
+}
+
+#vlogo:hover{
+    background-color: rgb(0, 255, 13) ;
+    box-shadow: 0px 0px 500px greenyellow;
+    transform: scale(1.1);
+
+    
+    
+    
+    
+}
+
+#vtitle{
+
+    height: 60px ;
+    background-color: rgb(43, 43, 43) ;
+    width: 84% ;
+    margin-left: 13% ;
+    border-radius: 25px ;
+    color: white ;
+    
+}
+
+.mainc{
+
+    width: 100% ;
+    height: 1000px;
+    background-color: rgb(35, 0, 65) ;
+    border-radius: 25px ;
+    padding-top: 140px ;
+    transition: background-color 10s ;
+}
+
+
+#login{
+
+    height: 650px ;
+    width: 40% ;
+    background-color: rgba(134, 22, 238, 0.568) ;
+    color: black ;
+    border-radius: 25px ;
+    text-align: center ;
+    margin-left: 30% ;
+    padding-top: 20px ;
+    border-width: 1px ;
+    border-style: solid;
+    border-color: black;
+
+}
+
+#inside{
+
+    height: 400px ;
+    width: 92% ;
+    background-color: rgba(137, 43, 226, 0.404) ;
+    color: black ;
+    border-radius: 25px ;
+    margin-left: 20px  ;
+    padding-top: 20px ;
+    text-align: left;
+
+}
+
+#l{
+    font-size: large;
+    font-weight: bold ;
+    color: rgb(255, 255, 255) ;
+    margin-left: 20px ;
+}
+
+#userlogo{
+
+    height: 150px ;
+    width: 150px ;
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 150px ;
+    margin-left: 35% ;
+    border: none;
+    transition: transform 1s ;
+
+}
+
+
+#userlogo:hover{
+    transform: scale(1.1);
+}
+
+#epicno{
+    height: 30px; /* Change the height to your desired value */
+    width: 200px; /* Change the width to your desired value */
+    border-radius: 10px ;
+    border: none;
+    text-align: left ;
+    margin-left: 20px ;
+}
+
+
+#captcha{
+    height: 30px; /* Change the height to your desired value */
+    width: 200px; /* Change the width to your desired value */
+    border-radius: 10px ;
+    border: none;
+    text-align: left ;
+    margin-left: 20px ;
+}
+
+#button{
+
+    width: 90%  ;
+    height: 50px  ;
+    background-color: rgb(121, 54, 199)  ;
+    color: white;
+    border-radius: 10px ;
+    border-style: solid;
+    border-width: 1px ;
+    border-color: rgb(110, 2, 182) ;
+    font-weight:bold ;
+    font-size: larger ;
+    text-align: center;
+    margin-left: 23px ;
+    transition: transform 1s ;
+
+}
+
+#button:hover{
+
+    transform: scale(1.1);
+}
+
+

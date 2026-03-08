@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Voting System</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}">
+</head>
+<body>
+
+    <div class="container">
+
+        <div id="vlogo">
+
+            <a href="/CollegeVotingSystem">
+            <img src="{{url_for('static',filename='images/vote4.png')}}" style="width: 100px; height: 100px ;" alt="">
+            </a>
+
+        </div>
+
+        <div id="vtitle" >
+ 
+            <h1 style="padding-top: 10px ;">College Voting System</h1>
+
+        </div>
+
+    </div>
+
+    <div class="mainc">
+
+           <div id="paragraph">
+            
+            <p id="text" >
+
+                <span style="color: rgba(255, 255, 255, 0);">.......</span> College voting is a democratic process where students elect their representatives for various roles such as student council, club presidents, and other leadership positions. It fosters a sense of responsibility, leadership, and engagement in decision-making within the campus community.
+                <br><br><span style="color: rgba(255, 255, 255, 0);">...........</span> 
+                <span style="font-weight: bold ;">"Your Vote, Your Voice, Your Future"</span>
+            </p>
+
+           </div>
+
+           <div id="vote_img">
+
+            <img src="{{url_for('static',filename='images/vote3.png')}}" alt="vote_img">
+
+           </div>
+
+           <div id="paragraph2">
+
+            <p id="text2" style="padding-top: 0px ;">
+                "In college, voting is an essential right and duty, empowering students to choose leaders who will advocate for their needs and concerns. It ensures a fair representation of students' voices in academic and extracurricular activities, ultimately shaping the college environment to be more inclusive, transparent, and student-friendly."
+            </p>
+
+           </div>
+
+           <div id="vote_gif">
+
+            <img src="{{url_for('static',filename='images/vote10.png')}}" style="width: 400px; height: 400px; padding-top: 40px ;" alt="voters">
+
+           </div>
+
+           <div id="list" >
+
+                <ul>
+                    <li id="t">Leadership Representation: Student voting allows individuals to elect representatives who will voice their concerns and bring about positive changes on campus.</li>
+                    <li id="t">Accountability: By voting, students hold elected representatives accountable for their promises and initiatives.</li>
+                    <li id="t">Policy Influence: Participation in voting helps shape policies affecting student life, including academics, sports, and extracurricular activities.</li>
+                </ul>
+
+           </div>
+
+           <div id="details"> 
+            
+            <h3 id="text2">Voting Rights for College Students:</h3>
+
+            <p id="normalp">
+                All college students who are enrolled and have a valid student ID are eligible to vote in student council and other representative elections. Every vote counts in making a difference in campus governance.
+            </p>
+
+            <h3 id="text2">Who Can Vote?</h3>
+
+            <p id="normalp">
+                Every student enrolled in the college is eligible to vote in student body elections, provided they have completed their registration and meet the necessary criteria. Participation in voting ensures student interests are well represented.
+            </p>
+
+            <h3 id="text2">Voting Process:</h3>
+
+            <p id="normalp">
+                The voting process is conducted fairly and transparently. Students can cast their votes online or through physical ballot boxes placed within the campus. The results are announced in a timely manner to maintain transparency and fairness.
+            </p>
+
+            <h3 id="text2">Disqualification from Voting:</h3>
+
+            <p id="normalp">
+                Students found violating the election code of conduct, engaging in malpractices, or attempting to influence votes unethically may be disqualified from voting or contesting elections.
+            </p>
+
+            <h3 id="text2">Importance of Voting:</h3>
+            <p id="normalp">
+                Voting is not just a right but a responsibility. It allows students to select leaders who will work towards enhancing their college experience, resolving issues, and representing their voices effectively.
+            </p>
+           </div>
+
+           <div class="mainv">
+
+            <div id="v1">
+                <img  src="{{url_for('static',filename='images/raise-hand.png')}}" style="width: 100px ; height: 100px ;  margin-top: 20px; " alt="vote_img">
+                <p style="padding-left: 20px ; padding-right: 20px ; font-weight: bold;">"Leaders are not born, they are chosen by the people who believe in change."</p>
+            </div>
+
+            <div id="v2">
+                <img  src="{{url_for('static',filename='images/ballot.png')}}" style="width: 100px ; height: 100px ;  margin-top: 20px; " alt="vote_img">
+                <p style="padding-left: 20px ; padding-right: 20px ; font-weight: bold;">"The future of our college lies in the hands of those who vote today."</p>
+            </div>
+
+            <div id="v3">
+                <img  src="{{url_for('static',filename='images/elections.png')}}" style="width: 100px ; height: 100px ;  margin-top: 20px; " alt="vote_img">
+                <p style="padding-left: 20px ; padding-right: 20px ; font-weight: bold;">"Your vote is your power. Use it wisely to build a better campus community."</p>                
+            </div>
+
+           </div>
+
+           <div class="link">
+               <a href="/OnlineVotingSystem/login">
+                 <button id="button">
+                           <h1>VOTE</h1> 
+                 </button>
+                </a>
+                 <p id="btext">"Be the change you want to see in your college. Vote for the right leaders!"</p>
+           </div>
+
+    </div>
+
+</body>
+</html>
