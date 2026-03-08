@@ -1,3 +1,0 @@
-#Online-Voting-System
-
-Develop an integrated online voting system that leverages the efficiency and low-level control of C for core processing, utilizes HTML and CSS to create an intuitive web interface, employs Python for backend operations and database management, and dynamically updates the C-based backend with real-time voting data stored in a database. The aim is to create a comprehensive and scalable platform for conducting secure, transparent, and accessible elections, providing voters with an interactive voting experience and enabling administrators to manage the electoral process efficiently.
