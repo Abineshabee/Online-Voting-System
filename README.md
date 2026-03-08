@@ -9,7 +9,7 @@ The **Online Voting System** is a web-based application designed to allow studen
 
 ![My Screenshot](./Example/Image1.png)
 
-![My Screenshot](./Example/Login.png)
+![My Screenshot](./Example/login.png)
 
 
 
